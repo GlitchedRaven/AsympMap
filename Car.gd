@@ -7,19 +7,19 @@ puppet var puppet_rot = 0
 puppet var puppet_pos = Vector2()
 
 
-var wheel_base = 50  # Distance from front to rear wheel
-var steering_angle = 15  # Amount that front wheel turns, in degrees
+var wheel_base = 20  # Distance from front to rear wheel
+var steering_angle = 50 # Amount that front wheel turns, in degrees
 var velocity = Vector2.ZERO
 var steer_angle
 
-var engine_power = 800 # Forward acceleration force.
+var engine_power = 200 # Forward acceleration force.
 var friction = -0.9 
 var drag = -0.0015 
 
-var braking = -400
+var braking = -70
 var max_speed_reverse = 500
 
-var slip_speed = 400  # Speed where traction is reduced
+var slip_speed = 200  # Speed where traction is reduced
 var traction_fast = 0.1  # High-speed traction
 var traction_slow = 0.7  # Low-speed traction
 

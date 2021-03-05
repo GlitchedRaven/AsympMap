@@ -1174,7 +1174,6 @@ polygon = PoolVector2Array( -455.5, 2403.5, -470.5, 2403.5, -470.5, 2388.5, -455
 polygon = PoolVector2Array( -454.5, 2405.5, -469.5, 2405.5, -469.5, 2390.5, -454.5, 2390.5 )
 
 [node name="Troyes" type="Sprite" parent="Collision2"]
-visible = false
 texture = ExtResource( 4 )
 
 [node name="SpawnPoints" type="Node2D" parent="."]
